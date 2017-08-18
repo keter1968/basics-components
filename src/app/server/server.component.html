@@ -1,0 +1,5 @@
+<p 
+    [ngStyle]="{backgroundColor: getColor()}"
+    [ngClass]="{onLine: serverStatus === 'onLine'}">
+    {{'Server'}} with id {{ serverId }} is {{ getServerStatus() }}
+</p>
